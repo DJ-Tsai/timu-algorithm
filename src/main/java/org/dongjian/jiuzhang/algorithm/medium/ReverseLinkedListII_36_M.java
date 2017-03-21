@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.medium;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ListNode;
+
+import org.dongjian.jiuzhang.algorithm.common.ListNode;
 
 /**
  * Reverse a linked list from position m to n.
