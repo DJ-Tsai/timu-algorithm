@@ -22,8 +22,8 @@ public class Permutation_15_M {
             return null;
         }
 
-        List<List<Integer>> results = new ArrayList<>();
-        List<Integer> subset = new ArrayList<>();
+        List<List<Integer>> results = new ArrayList();
+        List<Integer> subset = new ArrayList();
         if (nums.length == 0) {
             results.add(subset);
             return results;
@@ -36,7 +36,7 @@ public class Permutation_15_M {
 
     private void helper(int[] nums, List<Integer> subset, List<List<Integer>> results) {
         if (subset.size() == nums.length) {
-            results.add(new ArrayList<>(subset));
+            results.add(new ArrayList(subset));
             return;
         }
 

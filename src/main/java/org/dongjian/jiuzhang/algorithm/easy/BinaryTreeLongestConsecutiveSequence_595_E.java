@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.TreeNode;
+
+import org.dongjian.jiuzhang.algorithm.common.TreeNode;
 
 /**
  * Given a binary tree, find the length of the longest consecutive sequence path.
