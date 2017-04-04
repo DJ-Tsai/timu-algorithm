@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ListNode;
+
+import org.dongjian.jiuzhang.algorithm.common.ListNode;
 
 /**
  * Implement an algorithm to delete a node in the middle of a singly linked list, given only access to that node.
