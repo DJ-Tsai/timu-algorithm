@@ -1,6 +1,6 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.TreeNode;
+import org.dongjian.jiuzhang.algorithm.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * Created by Dj on 1/28/17.
  */
 public class BinaryTreePath_480_E {
-    private List<String> result = new ArrayList<>();
+    private List<String> result = new ArrayList();
 
     /**
      * @param root the root of the binary tree

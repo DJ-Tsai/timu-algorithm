@@ -1,6 +1,6 @@
 package org.dongjian.jiuzhang.algorithm.test;
 
-import org.junit.Assert;
+import java.util.PriorityQueue;
 
 /**
  * Created by Dj on 1/28/17.
@@ -16,6 +16,17 @@ public class Test {
 
 
      }
+
+     @org.junit.Test
+     public void test2() {
+          PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+
+          queue.offer(1);
+          queue.offer(2);
+          System.out.println(queue.peek());
+     }
+
+
 
      public void appendString(String string) {
           string = string + "append";

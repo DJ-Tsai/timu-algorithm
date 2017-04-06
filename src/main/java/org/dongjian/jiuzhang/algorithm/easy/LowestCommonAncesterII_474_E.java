@@ -1,6 +1,6 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ParentTreeNode;
+import org.dongjian.jiuzhang.algorithm.common.ParentTreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ public class LowestCommonAncesterII_474_E {
     }
 
     private List<ParentTreeNode> getPath(ParentTreeNode leaf) {
-        List<ParentTreeNode> path = new ArrayList<>();
+        List<ParentTreeNode> path = new ArrayList();
 
         if (null == leaf) {
             return null;

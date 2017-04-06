@@ -1,7 +1,5 @@
 package org.dongjian.jiuzhang.algorithm;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.Interval;
-import com.faith.dj.jiuzhang.java.fundamental.easy.MergeIntervals_156_E;
 
 import java.util.ArrayList;
 import java.util.Arrays;

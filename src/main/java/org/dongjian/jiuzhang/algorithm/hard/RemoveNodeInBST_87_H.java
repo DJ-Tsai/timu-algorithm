@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.hard;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.TreeNode;
+
+import org.dongjian.jiuzhang.algorithm.common.TreeNode;
 
 /**
  * Created by Dj on 1/31/17.

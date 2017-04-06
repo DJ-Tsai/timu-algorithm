@@ -1,6 +1,6 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ListNode;
+import org.dongjian.jiuzhang.algorithm.common.ListNode;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ListNode;
+
+import org.dongjian.jiuzhang.algorithm.common.ListNode;
 
 /**
  * Created by Dj on 1/18/17.

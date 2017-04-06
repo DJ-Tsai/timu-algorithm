@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.Interval;
+
+import org.dongjian.jiuzhang.algorithm.common.Interval;
 
 import java.util.Collections;
 import java.util.List;

@@ -9,7 +9,7 @@ public class PalindromeNumber_491_E {
     public static boolean palindromeNumber2(int num) {
         // Write your code here
         int result = num;
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList();
         while (num / 10 != 0) {
             list.add(num % 10);
             num = num / 10;

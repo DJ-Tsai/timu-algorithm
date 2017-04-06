@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.medium;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.TreeNode;
+
+import org.dongjian.jiuzhang.algorithm.common.TreeNode;
 
 /**
  * Given the root and two nodes in a Binary Tree. Find the lowest common ancestor(LCA) of the two nodes.

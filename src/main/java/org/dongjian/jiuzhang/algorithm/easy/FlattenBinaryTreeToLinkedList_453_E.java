@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.TreeNode;
+
+import org.dongjian.jiuzhang.algorithm.common.TreeNode;
 
 /**
  * Flatten a binary tree to a fake "linked list" in pre-order traversal.

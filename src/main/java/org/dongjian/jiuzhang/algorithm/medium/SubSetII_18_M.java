@@ -21,11 +21,11 @@ public class SubSetII_18_M {
         if (null == nums) {
             return null;
         }
-        ArrayList<ArrayList<Integer>> results = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> results = new ArrayList();
 
         Arrays.sort(nums);
 
-        dfsHelper(nums, 0, new ArrayList<>(), results);
+        dfsHelper(nums, 0, new ArrayList(), results);
 
         return results;
     }
@@ -34,7 +34,7 @@ public class SubSetII_18_M {
                            int startIndex,
                            ArrayList<Integer> subset,
                            ArrayList<ArrayList<Integer>> results) {
-        results.add(new ArrayList<>(subset));
+        results.add(new ArrayList(subset));
         for (int i = startIndex; i < nums.length; i++) {
             if (i == startIndex || nums[i] != nums[i - 1]) {
                 subset.add(nums[i]);

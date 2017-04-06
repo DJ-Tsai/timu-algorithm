@@ -1,6 +1,6 @@
 package org.dongjian.jiuzhang.algorithm.medium;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ListNode;
+import org.dongjian.jiuzhang.algorithm.common.ListNode;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

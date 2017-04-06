@@ -1,6 +1,7 @@
 package org.dongjian.jiuzhang.algorithm.easy;
 
-import com.faith.dj.jiuzhang.java.fundamental.common.ListNode;
+
+import org.dongjian.jiuzhang.algorithm.common.ListNode;
 
 /**
  * Sort a linked list using insertion sort.

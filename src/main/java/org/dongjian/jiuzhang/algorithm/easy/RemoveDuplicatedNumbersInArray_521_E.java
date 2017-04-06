@@ -9,7 +9,7 @@ import java.util.Map;
 public class RemoveDuplicatedNumbersInArray_521_E {
     public int deduplication(int[] nums) {
         // Write your code here
-        HashMap<Integer, Boolean> map = new HashMap<>();
+        HashMap<Integer, Boolean> map = new HashMap();
 
         // Time complexity O(n)
         for (int i = 0; i<nums.length;i++ ) {
