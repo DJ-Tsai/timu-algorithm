@@ -1,4 +1,4 @@
-package org.dongjian.jiuzhang.algorithm.easy;
+package org.dongjian.jiuzhang.algorithm.medium;
 
 /**
  * Given a list of non negative integers, arrange them such that they form the largest number.

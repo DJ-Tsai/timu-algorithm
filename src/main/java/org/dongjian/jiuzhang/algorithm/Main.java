@@ -3,6 +3,7 @@ package org.dongjian.jiuzhang.algorithm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ThreadPoolExecutor;
 
@@ -102,9 +103,22 @@ public class Main {
 //        test.merge(list);
 
 
-        System.out.println(Integer.parseInt("111111111"));
+//        System.out.println(Integer.parseInt("111111111"));
+//
+//        int[][] image = {{1,2},{3,4}};
 
-        int[][] image = {{1,2},{3,4}};
+        HashMap<Integer, Integer> map = new HashMap();
+
+        map.put(1,1);
+        Integer k = new Integer(1);
+        Integer i = k;
+        i++;
+
+//        Integer i = map.get(1);
+        i++;
+
+        System.out.println("" + i);
+        System.out.println("" + k);
 
     }
 
