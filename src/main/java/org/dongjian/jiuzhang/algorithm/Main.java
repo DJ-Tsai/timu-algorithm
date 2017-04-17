@@ -107,19 +107,23 @@ public class Main {
 //
 //        int[][] image = {{1,2},{3,4}};
 
-        HashMap<Integer, Integer> map = new HashMap();
-
-        map.put(1,1);
-        Integer k = new Integer(1);
-        Integer i = k;
-        i++;
+//        HashMap<Integer, Integer> map = new HashMap();
+//
+//        map.put(1,1);
+//        Integer k = new Integer(1);
+//        Integer i = k;
+//        i++;
 
 //        Integer i = map.get(1);
-        i++;
+//        i++;
+//
+//        System.out.println("" + i);
+//        System.out.println("" + k);
 
-        System.out.println("" + i);
-        System.out.println("" + k);
+        char a = '1';
+        int b = a;
 
+        System.out.println("" + b);
     }
 
     private static void addOneNumber(int[] a) {
